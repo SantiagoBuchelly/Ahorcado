@@ -1,0 +1,210 @@
+.hidden {
+    color: transparent;
+}
+
+header , body {
+    background: url(../images/wood2.jpg);
+    overflow: hidden;
+    width: auto;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 1000px;
+}
+
+header {
+    height: 200px;
+    position: relative;
+    height: 100px;
+    display: inline;    
+}
+
+#cuerda {
+    position: relative;
+    left: 44%;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 4rem;
+    height: 5.8rem;
+}
+
+h1 {
+    position: fixed;
+    margin-top: 10px;
+    top: 5px;
+    color: rgb(229, 237, 240);
+    text-align: center;
+    font-size: 5rem;
+    left: 42%;
+    font-family: 'Amatic SC';
+    font-weight: bolder;
+    -webkit-text-stroke: 3px #000000;
+}
+
+main{
+    display: block;
+	width: auto;
+    height: 500px;
+    position: relative;
+    box-sizing: borde-box;
+    overflow: hidden;
+}
+
+#first-div {
+    height: 500px;
+
+}
+
+main div button, main button{
+	text-transform: uppercase; 
+    font-family: 'Press Start 2P', cursive;
+	color: #BBBBBB;
+	font-weight: bold;
+	font-size: 0.8rem; 
+	text-decoration: none; 
+    background: #000000;
+    padding: 20px 20px;
+    border-radius: 50px;
+    transition: 1s all;
+    position: absolute;
+ 
+}
+
+main div button:hover , main button:hover{
+    transform: scale(1.2);
+}
+
+#canvas {
+    background-color: #000000;
+    position: fixed;
+    left: 27%;
+    margin-top: 0;
+    top: 219px;
+}
+
+#startButton{
+    margin-left: auto;
+    margin-right: auto;
+    top: 450px;
+    left: 40%;
+    position: fixed;
+}
+
+#wordContainer {
+    margin-top: 20px;
+    top: 200px;
+    left: 53%;
+    display: block;
+    position: absolute;
+    background: #fff;
+    font-family: 'Amatic SC';
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #000000;
+    border-color: #000000;
+    content: 5rem;
+    width: 300px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+#usedLetters {
+    font-family: 'Amatic SC';
+    font-weight: bolder;
+    font-size: 2rem;
+    background: black;
+    position: relative;
+    left: 52.5%;
+    color: #BBBBBB;
+    top: 323px;
+    content: 5rem;
+    width: 300px;
+    margin: 0 7px;
+    border-radius: 10px;
+
+}
+
+.letter {
+    margin: 0 7px;
+    text-align: center;
+    font-style: bold;
+    position: relative;
+}
+
+.letter::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    min-width: 12px;
+}
+
+#parrafo-letras {
+    position: absolute;
+    top: 58%;
+    left: 53%;
+    font-family: 'Amatic SC';
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #BBBBBB;
+    -webkit-text-stroke: 3px #000000;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 60px;
+    background: url(../images/rr.jpg);
+}
+
+footer p {
+    font-family: 'Amatic SC', cursive;
+    color: #BBBBBB;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 480px){ /*para hacer que nuestro programa sea responsivo en otros aparatos*/
+
+
+	header, .cabezera, main{
+		width: auto;
+	}
+
+    h1 {
+        font-size: 15rem;
+        left: 28%;
+        top: 100%;
+        display: inline;
+    }
+
+    #cuerda{
+        position: absolute;
+        display: inline;
+        left: 30%;
+        width: 180px;
+        top: 9%;
+    }
+
+    .navegacion {
+        display: block;
+        margin-top: 40px;
+        top: 900px;
+        left: 0px;
+    }
+
+    .opciones{
+        padding: 70px 70px;
+    }
+
+
+
+}

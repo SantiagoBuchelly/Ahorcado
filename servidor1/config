@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "servidor1"]
+	url = C:/Users/josep/Desktop/Desafios/Ahorcado/servidor1/
+	fetch = +refs/heads/*:refs/remotes/servidor1/*
+[remote "origin"]
+	url = https://github.com/SantiagoBuchelly/Juego---Ahorcado.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
